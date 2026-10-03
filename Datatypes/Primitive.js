@@ -33,6 +33,6 @@ console.log(typeof big);
 
 // 7.Symbol 
 const id1 = Symbol("id");
-const id2 =Symbol("id");
+const id2 =Symbol("id")
 console.log(typeof id1, typeof id2);
 
