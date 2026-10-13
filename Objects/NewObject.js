@@ -1,9 +1,9 @@
-let student = {
-    name: "Vineet",
-    age: 20,
-    course: 'BCS',
-    marks: 85
-};
+let student = new Object();
+
+student.name = "Anand";
+student.age = 21;
+student.course = "BSC-CS";
+student.marks = 87;
 
 console.log(student);
 console.log(student.name);
