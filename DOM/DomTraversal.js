@@ -8,5 +8,8 @@ console.log("Parent: ",heading.parentElement);
 
 // 2. Child Traversal 
 console.log("First Child: ",parent.firstElementChild);
-console.log("First Child: ",parent.lastElementChild);
+console.log("Last Child: ",parent.lastElementChild);
 
+// 3. Sibling Traversal
+console.log("Next Element: ",para1.nextElementSibling);
+console.log("Previous Element: ",para2.previousElementSibling);
