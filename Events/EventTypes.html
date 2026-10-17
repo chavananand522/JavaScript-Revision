@@ -21,47 +21,63 @@
         reload the page." -->
         <input type="text" required placeholder="Enter Name">
         <button type="submit">Submit</button>
-
-        <hr>
-
-        <!-- 3. Keypress Event(using keydown) -->
-        <input type="text" onkeydown="console.log('key pressed')" placeholder="Press a key">
-
-        <hr>
-
-        <!-- 4.MouseOver Event -->
-        <p onmouseover="this.style.color='blue'">
-            move mouse on me
-        </p>
-
-        <hr>
-
-        <!-- 5.Mouseout Event -->
-        <p onmouseout="this.style.background='yellow'">
-            My name is Anand Chavan
-        </p>
-
-        <hr>
-
-        <!-- 6.Focus Event -->
-        <input type="text" onfocus="this.style.background='orange'" placeholder="Focus Event ">
-
-        <hr>
-
-        <!-- 7.Blur Event -->
-        <input type="text" onblur="this.style.background='lightgray'" placeholder="Event Blur">
-
-        <hr>
-
-        <!-- 8.Change Event -->
-        <select onchange="alert('Course Changed!')">
-            <option>Java</option>
-            <option>Python</option>
-            <option>Js</option>
-        </select>
-
-        <hr>
     </form>
+
+    <hr>
+
+    <!-- 3. Keypress Event(using keydown) -->
+    <input type="text" onkeydown="console.log('key pressed')" placeholder="Press a key">
+
+    <hr>
+
+    <!-- 4.MouseOver Event -->
+    <p onmouseover="this.style.color='blue'">
+        move mouse on me
+    </p>
+
+    <hr>
+
+    <!-- 5.Mouseout Event -->
+    <p onmouseout="this.style.background='yellow'">
+        My name is Anand Chavan
+    </p>
+
+    <hr>
+
+    <!-- 6.Focus Event -->
+    <input type="text" onfocus="this.style.background='orange'" placeholder="Focus Event ">
+
+    <hr>
+
+    <!-- 7.Blur Event -->
+    <input type="text" onblur="this.style.background='lightgray'" placeholder="Event Blur">
+
+    <hr>
+
+    <!-- 8.Change Event -->
+    <select onchange="alert('Course Changed!')">
+        <option>Java</option>
+        <option>Python</option>
+        <option>Js</option>
+    </select>
+
+    <!-- 9.Load Event -->
+    <p>Check the console to see the page and page loaded message.</p>
+
+    <!-- 10.Scroll Event -->
+    <h3>Scroll Event</h3>
+    <p>Scroll the webpage to trigger the Event.</p>
+
+    <div style="height: 400px; background-color: lightblue;">
+        <p>scroll to see scroll Event.</p>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function () {
+            console.log("Page Scrolled");
+        })
+    </script>
+    <hr>
 </body>
 
 </html>
